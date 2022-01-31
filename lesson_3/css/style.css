@@ -1,0 +1,59 @@
+/* @import url(null.css); */
+/* Добрый день. Я слышал что вы говорили использовать стили обнуления. Поэтому прошу извинить за что их не применил.
+Потому что вы также говорили что домашка в первую очередь для студента, и мне так нравится больше. Обещаю их включить как только выучим свойства разделения margin и padding*/
+body{
+	color: black;
+}
+ul li{
+	color: grey;
+}
+a{
+	color: darkslateblue;
+}
+.header-title.title{
+	color: violet;
+}
+.header-subtitle {
+	color: lightcoral;
+}
+.header-menu li{
+	color: darkred;
+}
+/* когда нужно обратится к ссылкам первой вложености.*/
+.header-list>li>a{
+	color: skyblue;
+}
+.title{
+	color: blue;
+}
+.main .facts-title{
+	color: green;
+}
+/* №1 */
+/* Не работает потому что выше есть запись с большим приоритетом */
+.facts-title {
+	color: brown; 
+}
+.color-list li{
+	color: lightcoral;
+}
+.color-list>li{
+	color: lawngreen;
+}
+/* №6 */
+h3{
+	color: indigo;
+}
+.joke-title{
+	color: hotpink;
+}
+p{
+	color: blue;
+} 
+.joke-text{
+	color:brown;
+}
+
+.joke-text ~ p{
+	color:burlywood;
+}
